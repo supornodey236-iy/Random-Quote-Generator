@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins';
+
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;  background-color: cornflowerblue;
+  
+}
+.wrapper{
+  max-width: 65vw;
+  background-color: antiquewhite;
+  padding: 20px 15px 20px 15px;
+  border-radius: 25px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+.wrapper header{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px
+}
+content{
+  margin: 35px;
+}
+ .quote-area{
+  display: flex;
+  justify-content: center;
+}
+.quote{
+  font-size: 1.5rem;
+  text-align: center;
+  word-break:keep-all;
+}
+.quote-area i {
+  font-size: 25px;
+}
+.quote-area i:first-child{
+  margin: 0px 20px 0px 10px;
+}
+.quote-area i:last-child{
+  margin: 0px 10px 0px 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.author{
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 35px 15px 40px 0px;
+  font-style: italic;
+  font-family: monospace;
+}
+.features-icon{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.author span:first-child{
+text-align: center;
+margin: 0 9px 0 0; 
+}
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features ul{
+  display: flex;
+}
+.features ul li{
+  list-style-type: none;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid cornflowerblue;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+.features ul li:hover{
+  color: white;
+  background-color: cornflowerblue;
+  transition: all 0.3s ease;
+}
+.features button{
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  background-color: cornflowerblue;
+  padding: 10px 15px 10px 15px ;
+  border-radius: 27px;
+  font-size: 1rem;
+  color: aliceblue;
+  cursor: pointer;
+}
+button.loading{
+  opacity: 0.7;
+  pointer-events: none;
+}
